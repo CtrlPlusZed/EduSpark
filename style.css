@@ -461,3 +461,77 @@ body {
     opacity: 0.3;
 
 }
+
+
+.user-story-container {
+    padding-top: 1.9rem;
+}
+
+.user-stories {
+    margin: 1rem 7rem;
+    padding: 1rem 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+
+}
+
+.story-title {
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+.card-1,
+.card-2,
+.card-3 {
+    padding-top: 1.5rem;
+    border: 2px solid var(--light-gray);
+    border-radius: 7px;
+    min-height: 15px;
+    min-width: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-1:hover,
+.card-2:hover,
+.card-3:hover {
+    transform: scale(1.03);
+    box-shadow: 2px 3px 4px rgb(43, 43, 40);
+
+}
+
+
+.user-stories .user-img {
+    padding: 1rem;
+    height: 5rem;
+
+}
+
+.user-stories p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: var(--gray)
+}
+
+.user-stories .users {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--primary-color);
+}
+
+.user-stories span {
+    padding: 0.2rem;
+    color: var(--gray);
+}
+
+@media screen and (max-width:900px) {
+    .user-stories {
+        flex-direction: column;
+    }
+}
