@@ -1,4 +1,5 @@
 EduSpark - Learning Platform
+
 EduSpark is an innovative and interactive learning platform designed to deliver a seamless and engaging user experience. Built with a clean, modern user interface, EduSpark helps users navigate through educational content with ease while offering unique features to enhance learning. The platform is fully responsive, ensuring a smooth experience across devices.
 
 Key Features
