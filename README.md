@@ -23,9 +23,13 @@ Fully Responsive Design: Optimized for mobile, tablet, and desktop use to ensure
 Technologies Used
 
 HTML5: For the core structure of the platform.
+
 CSS3: For styling, layout, and responsive design.
+
 JavaScript (To be implemented): For dynamic interactions and user interface functionality.
+
 React.js (To be implemented): For building reusable components and enhancing the platform's interactivity.
+
 Backend Integration (To be implemented): Supports user authentication, data management, and storage via a secure backend, ensuring smooth functionality for features like login, registration, and content management.
 
 Contributing
