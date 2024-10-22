@@ -442,14 +442,16 @@ body {
 
 .user-story-container {
     padding-top: 1.9rem;
+
+
 }
 
 .user-stories {
     margin: 1rem 7rem;
     padding: 1rem 7rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items: start;
     gap: 1rem;
 }
 
@@ -507,9 +509,13 @@ body {
 
 @media screen and (max-width:900px) {
     .user-stories {
+        
+            margin: 1rem 0;
+            padding: 1rem 0;
         flex-direction: column;
         min-width: 250px;
     }
+
 }
 
 .newsletter-container {
