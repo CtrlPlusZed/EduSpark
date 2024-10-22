@@ -510,8 +510,8 @@ body {
 @media screen and (max-width:900px) {
     .user-stories {
         
-            margin: 1rem 0;
-            padding: 1rem 0;
+            margin: 1.2rem 1rem;
+            padding: 1.2rem 1rem;
         flex-direction: column;
         min-width: 250px;
     }
