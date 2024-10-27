@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600;700&display=swap');
+
+:root {
+    --primary-color: #6366f1;
+    --accent-color: #3f83f8;
+    --text-color: #333333;
+    --link-color: #2563eb;
+    --background-color: #ffffff;
+    --light-gray: #f0f0f0;
+    --gray: #808080;
+    --dark-gray: #555;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--background-color);
+    padding: 1.5rem;
+    overflow-x: hidden;
+
+}
+
+.privacy-container .title {
+    font-size: 5rem;
+    font-weight: bold;
+    color: var(--accent-color);
+    text-align: center;
+}
+
+.sub-title {
+    padding: 0.9rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.sub-titles {
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 0.8rem;
+
+}
+span{
+font-weight: 500;
+
+
+}
+.agree{
+text-align: center;
+padding-top: 0.9rem;
+padding-bottom: 1rem;
+border-top: 2px solid var(--dark-gray);
+font-size: 1.1rem;
+}
